@@ -1,0 +1,95 @@
+body{
+  margin:0;
+  padding:0;
+  background: #fefaf9;
+  color: #091313;
+  font-family: 'OpenSansRegular', sans-serif;
+}
+.llama{
+  background: url(../images/bg.png) no-repeat fixed;
+  background-size: cover;
+  min-width:100%;
+  min-height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+}
+.logo{
+  position: relative;
+  top:100px;
+  width:50%;
+  max-width:400px;
+  margin:auto;
+}
+.small-logo{
+  position: relative;
+  top:100px;
+  width:50%;
+  max-width:400px;
+  margin:auto;
+}
+.author{
+  position:relative;
+  top:150px;
+  font-size:10px;
+  width:50%;
+  text-align:center;
+  margin:auto;
+}
+.menu {
+  max-width:400px;
+  width:100%;
+  position:relative;
+  top:80px;
+  margin:auto;
+}
+.menu ul{
+  padding:0;
+  list-style:none;
+}
+.menu ul li{
+  float:left;
+}
+.menu ul li a{
+  text-decoration:none;
+  color: #090909;
+  background:none;
+  font-family: 'OpenSansLight', sans-serif;
+  padding:5px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+.menu ul li a:hover{
+  background: #090909;
+  color: #fefaf9;
+}
+.content{
+  position:relative;
+  top:100px;
+  width:90%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  max-width:600px;
+  background: rgba(255,255,255,0.8);
+  margin:auto;
+  z-index:100;
+}
+.content h2{
+  font-family: 'OpenSansBold', sans-serif;
+  font-variant: small-caps;
+}
+@media only screen and (max-width:400px), only screen and (max-device-width: 400px) {
+  .menu ul li{
+    float:none;
+    text-align:center;
+    margin-bottom:10px;
+  }
+
+}
